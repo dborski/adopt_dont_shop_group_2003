@@ -11,7 +11,8 @@
       <%= render partial: 'form', locals: {
                                       path: "/shelters/#{@shelter.id}",
                                       method: :patch,
-                                      button_text: 'Submit'
+                                      button_text: 'Submit',
+                                      visible: false
                                     } %>
     </div>
   </div>
